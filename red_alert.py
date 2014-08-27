@@ -2,7 +2,11 @@
 
 import sys
 import gtk
-import appindicator
+try:
+	import appindicator
+except:
+	print "Do 'sudo apt-get install python-appindicator' "
+	sys.exit(1)
 try:
 	import easygui
 except:

@@ -5,7 +5,9 @@ This is a small Gnome / Unity application to give you notifications about 'tzeva
  
 ## Technical
 To make sure the application works please install the following packages:
-	sudo apt-get install python-easygui python-tk'
+
+	sudo apt-get install python-easygui python-tk python-appindicator
+
 Please notice it currently has no error handling and we know of a lot of bugs in it. It's just a path application to address the lack of applications like it for the Linux desktop environment. 
 
 ## License
