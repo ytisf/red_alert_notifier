@@ -4,40 +4,32 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Red alert notifier by ytisf</title>
+
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
+    <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/ytisf/red_alert_notifier">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/ytisf/red_alert_notifier/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/ytisf/red_alert_notifier/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
-
     <div class="wrapper">
+      <header>
+        <h1 class="header">Red alert notifier</h1>
+        <p class="header">A simple red alert notifier for the GNOME/UNITY desktop</p>
 
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/ytisf/red_alert_notifier/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/ytisf/red_alert_notifier/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/ytisf/red_alert_notifier">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/ytisf">ytisf</a></p>
+
+
+      </header>
       <section>
-        <div id="title">
-          <h1>Red alert notifier</h1>
-          <p>A simple red alert notifier for the GNOME/UNITY desktop</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/ytisf">ytisf</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
-
         <h1>
 <a name="red-alert-notifier" class="anchor" href="#red-alert-notifier"><span class="octicon octicon-link"></span></a>Red Alert Notifier</h1>
 
@@ -52,7 +44,7 @@
 
 <p>To make sure the application works please install the following packages:</p>
 
-<pre><code>sudo apt-get install python-easygui python-tk
+<pre><code>sudo apt-get install python-easygui python-tk python-appindicator
 </code></pre>
 
 <p>Please notice it currently has no error handling and we know of a lot of bugs in it. It's just a path application to address the lack of applications like it for the Linux desktop environment. </p>
@@ -73,10 +65,12 @@ GNU General Public License for more details.</p>
 <p>You should have received a copy of the GNU General Public License
 along with this program.  If not, see <a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>.</p>
       </section>
-
+      <footer>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-              <script type="text/javascript">
+		          <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
